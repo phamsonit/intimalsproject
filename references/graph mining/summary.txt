@@ -1,0 +1,34 @@
+GrouMiner
+1. create groums
+2. mine pattern by PattExplorer algorithm
+	idea of the algorithm: 
+		1. find subgraph size k+1 from graph size k
+		2. employs an aproximate vector-based approach ? Exas charateristic vecto
+advantages: ...
+disadvantages: ...
+
+
+
+Biggroum
+1. create groums
+2. cluter groums by itemset mining
+3. mine patterns of each cluster by a three-step framework
+	1. slice
+	2. bining
+	3. classification
+
+advantages: ... clustering help mine patterns more efficient
+disadvantages:
+1. graph mining method: read more detail in the paper (focus on miner pattern section)
+2. output pattern: for some clusters the miner doesn't generate any pattern althought the number of input groups is large.
+
+		
+	
+Subdue
+advantages:
+1. a heuristic graph mining algorithm
+2. based on MDL principle.
+
+could be replaced the graph miner in Biggroum?
+how to improve Subdue for mining usage patterns?
+

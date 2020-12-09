@@ -1,0 +1,20 @@
+INTiMALS members
+================
+
+
+Kim Mens  		ICTEAM, UCLouvain	kim.mens@uclouvain.be
+Siegfried Nijssen   	ICTEAM, UCLouvain	siegfried.nijssen@uclouvain.be
+Hoang Son Pham	  	ICTEAM, UCLouvain	hoang.s.pham@uclouvain.be
+
+
+Dario Di Nucci		Software Languages Lab, VUB	dario.di.nucci@vub.be
+Tim Molderez		Software Languages Lab, VUB	tim.molderez@vub.be
+Coen De Roover		Software Languages Lab, VUB	coen.de.roover@vub.be
+
+Ruben Denzel Opdebeeck		Software Languages Lab, VUB	Ruben.Denzel.Opdebeeck@vub.be
+Jonas De Bleser			Software Languages Lab, VUB	Jonas.De.Bleser@vub.be
+
+
+Johan Fabry		RainCode Lab	Johan@raincode.com
+Vadim Zaytsez		RainCode Lab	vadim@raincode.com
+			University Twente v.zaytsev@utwente.nl

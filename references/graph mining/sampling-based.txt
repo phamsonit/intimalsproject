@@ -1,0 +1,65 @@
+Exhaustive Frequent subgraph mining:
+------------------------------------
+gSpan: Graph-based substructure pattern mining [Yan,2002]
+
+
+Top-K frequent subgraph mining:
+-------------------------------
+Tgp: Mining top-k frequent closed graph pattern without minimum support[Li,2010]
+
+kFSIM: Top-k frequent induced subgraph mining using sampling [Duong,2016]
+
+TKG: Efficient Mining of Top-K Frequent Subgraphs [Philippe Fournier-Viger,2019]
+	proposed algorithm utilizes a novel search space traversal approach called dynamic search to always explore the most promising patterns first
+	this algorithm aims to find top-k patterns which have highest support.
+	these patterns are not interesting in the sence of source code patterns
+	because they reflect the most common structure of the programming languages.
+	However, in the context of mining source code patterns we would like to find 
+	patterns which contain detail. These patterns usually have very low support.
+	
+	In short, top-k frequent subtree mining approaches are not suitable to mine
+	source code patterns.
+	
+
+Sampling approach subgraph mining:
+----------------------------------
+
+Output space sampling for graph patterns [Hasan,2009]
+
+FS3: A sampling based method for top-k frequent subgraph mining [Saha,2014]
+
+MUSK: Uniform sampling of k maximal patterns [Hasan, 2014]
+		using MCMC to sample subgraphs
+
+
+
+Constraint-based pattern subtree mining
+--------------------------------------
+DS2019 paper
+	
+
+
+
+Notes:
+===================================
+
+1. Exhaustive search
+- FREQT, .... 
+	yeild large numbers of patterns
+	
+- Top-k frequent subtree mining
+	yeild small numbers of patterns with high support
+	
+- Constraint-based pattern mining
+	yeild a small numbers of patterns
+	easier interpret the patterns found under given constraints
+	not scale for large software source code
+	
+--> proposal: sampling approach
+	trade off between performance and completeness/accuracy
+	
+	
+	
+
+
+	
